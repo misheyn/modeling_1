@@ -23,3 +23,5 @@ plt.plot(x, y_der_discrete(x), '--', label='discrete derivative')
 plt.legend()
 plt.grid()
 plt.show()
+
+print(y_der_analytic(x))
